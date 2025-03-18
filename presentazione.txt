@@ -1,0 +1,37 @@
+software di supporto alle attività realizzate in una azienda
+di aiuti umanitari. HELP è una azienda che opera su tutto il territorio europeo, essa principalmente
+si occupa di ricevere e stoccare i viveri (tutti a lunga conservazione) ricevuti in donazione e poi di
+smistarli alle diocesi di tutto il territorio europeo. I viveri vengono donati da aziende di diversa
+natura ed il software deve gestirne l’acquisizione in modo da non sovraccaricare i magazzini. Il limite
+per i magazzini è dato dalla capienza del magazzino stesso e dalle richieste delle diocesi. Ci sono
+più magazzini a disposizione. Una volta al mese viene stabilito l’ammontare da inviare ad ogni
+diocesi.
+Nelle diocesi sono presenti più poli territoriali di smistamento dei viveri (spesso sono parrocchie) a
+cui sono iscritti i nuclei familiari bisognosi. I nuclei familiari vengono registrati dal rappresentante
+del polo territoriale che inserisce i dati di tutti i membri della famiglia, compreso il codice fiscale.
+All’atto dell’inserimento di una famiglia, il software deve controllare che questa, o uno dei suoi
+membri, non siano già inseriti in qualche altro polo territoriale. Inoltre, di ogni membro della
+famiglia vanno registrati eventuali bisogni speciali come per esempio diabete, celiachia, etc.
+I dati e i bisogni di ogni famiglia servono al sistema per stabilire la distribuzione dei viveri dal livello
+magazzini centrali a livello polo territoriale. All’atto dell’inserimento di una famiglia nel sistema
+vengono aggiornati tutti i dati relativi alle distribuzioni. L’invio dei viveri alle diocesi avviene il 25 di
+ogni mese ed insieme ai viveri ogni diocesi riceve dal software uno schema di distribuzione per
+ogni polo territoriale che a sua volta riceve lo schema di distribuzione per ogni famiglia. Lo schema
+si aggiorna periodicamente in funzione delle età che cambiano, delle morti e delle nascite.
+Ogni polo territoriale, dopo aver ricevuto i viveri ed averli distribuiti deve aggiornare la propria
+posizione nel sistema, quindi un responsabile del polo accede al sistema, verifica il carico ricevuto
+e inserisce tutti gli elementi della distribuzione effettuata (il numero delle persone che hanno
+ritirato, il tipo ed il numero di viveri etc). Qualunque errore a monte va segnalato e deve essere
+possibile scaricare dei report (mensili, trimestrali o annuali). In qualunque momento il responsabile
+del polo può inserire nel sistema nuovi bisogni sopravvenuti per gli assistiti.
+
+Periodicamente, il sistema invia alle aziende aderenti al programma di aiuto le richieste in termini
+di quantità. In questa fase devono essere prese in considerazione i bisogni dei nuclei familiari, le
+età ed il numero dei componenti, le scadenze dei viveri ed il residuo magazzino di ogni polo.
+Ad ogni polo deve essere ricordato di tenere aggiornate le info sul magazzino, se questo non viene
+fatto per due mesi di fila, il polo deve essere sospeso dagli aiuti fino a quando non sistema la sua
+posizione. Il polo può anche sospendere l’adesione al programma di aiuti.
+Ogni inizio mese le aziende inseriscono i dati delle donazioni che effettueranno ed il sistema fa una
+previsione di distribuzione per il mese successivo, verifica quindi le quantità, le tipologie e in base
+ai bisogni ed i numeri che ha in memoria è in grado di stabilire se le scorte ed i nuovi arrivi saranno
+sufficienti. In alternativa invia una richiesta ad-hoc alla/e azienda/e.
